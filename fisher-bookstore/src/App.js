@@ -4,12 +4,10 @@ import { Navbar, Nav, NavItem } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Routes from "./Routes"
 
-export default class App extends Component
-{
-  render()
-  {
-    return(
-      <div className="App container">
+export default class App extends Component {
+  render() {
+    return (
+      <div className= "App container">
         <Navbar bg="light" expand="lg">
           <Navbar.Brand>
             <Link to="/">Fisher Bookstore</Link>
@@ -20,8 +18,11 @@ export default class App extends Component
               <NavItem>
                 <Nav.Link href="/books">Books</Nav.Link>
               </NavItem>
-            </Nav> 
-          </Navbar.Collapse>     
+              <NavItem>
+                <Nav.Link href="/authors">Authors</Nav.Link>
+              </NavItem>
+            </Nav>
+          </Navbar.Collapse>
         </Navbar>
         <Routes />
       </div>
