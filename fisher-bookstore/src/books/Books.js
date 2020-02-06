@@ -1,13 +1,13 @@
 import React from "react"; 
-import "./Home.css"; 
+import "./Books.css"; 
 
 export default function Home()
 {
    return (
-       <div classname = "Books">
+       <div classname = "Home">
            <div className= "lander">
-           <h1>Home</h1>
-           <p>Welcome to Fisher Bookstore.</p>
+               <h1>Books</h1>
+               <p>Here are all the Books!</p>
            </div>
        </div>
    )
