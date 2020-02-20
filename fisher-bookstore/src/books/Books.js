@@ -22,37 +22,37 @@ export default class Books extends Component
                     isbn: "978-1942788331"
                 },
                 {
-                    id: 1,
+                    id: 3,
                     title: "All The Penuts", 
                     author: "Bob The Builder", 
                     isbn: "978-1278368" 
                 },
                 {
-                    id: 2, 
+                    id: 4, 
                     title: "I Love Pizza",
                     author: "Pizza Mia", 
                     isbn: "978-23487203985"
                 },
                 {
-                    id: 1,
+                    id: 5,
                     title: "Water is Wonderful", 
                     author: "Rain Man", 
                     isbn: "978-23874698273" 
                 },
                 {
-                    id: 2, 
+                    id: 6, 
                     title: "OMG BOOKS",
                     author: "Lovely Ladys", 
                     isbn: "978-1942788331"
                 },
                 {
-                    id: 1,
+                    id: 7,
                     title: "I Really Do Know", 
                     author: "Im Really Not Sure", 
                     isbn: "978-0321125217" 
                 },
                 {
-                    id: 2, 
+                    id: 8, 
                     title: "Some Things Just Arent So",
                     author: "Willy Wonka ", 
                     isbn: "978-1942788331"
