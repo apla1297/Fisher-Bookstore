@@ -4,7 +4,7 @@ import "./Home.css";
 export default function Home()
 {
    return (
-       <div classname = "Books">
+       <div className = "Books">
            <div className= "lander">
            <h1>Home</h1>
            <p>Welcome to Fisher Bookstore.</p>
